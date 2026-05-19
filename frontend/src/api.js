@@ -3,7 +3,7 @@ import axios from "axios";
 const API = axios.create({
 
     baseURL:
-    "https://complaintregistercrud.onrender.com"
+    "https://complaintregistercrud.onrender.com/api"
 });
 
 API.interceptors.request.use((req) => {
